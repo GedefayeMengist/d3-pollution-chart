@@ -1,0 +1,21 @@
+
+body {
+    font-family: sans-serif;
+}
+
+svg {
+    overflow-x: scroll; /* Add horizontal scroll */
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 8px;
+    font: 12px sans-serif;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    pointer-events: none; /* Prevent tooltip from blocking mouse events */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.2s ease; /* Smooth transition */
+}
